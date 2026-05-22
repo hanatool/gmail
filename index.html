@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport' />
+  <title>Gmail Dot Trick Generator</title>
+  <meta name="description"
+    content="Modern Gmail Dot Trick Generator tool to generate Gmail dot variations easily and quickly." />
+  <meta name="keywords"
+    content="gmail dot trick, gmail generator, google mail trick, gmail variations, email generator" />
+  <meta name="author" content="Gmail Tool" />
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="https://hanapha.com/banner/socialbar.js"></script>
+</head>
+
+<body class="bg-light text-dark">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="https://tools.hanapha.com/gmail/">
+        <i class="fa-brands fa-google text-primary me-2"></i>Gmail Dot Trick</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://tools.hanapha.com/gmail/">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://tools.hanapha.com/">Generator</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://tools.hanapha.com/about/">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="py-5 bg-white border-bottom">
+    <div class="container text-center">
+
+      <div class="mb-3">
+        <span class="badge bg-primary px-3 py-2">
+          Free Online Tool</span>
+      </div>
+
+      <h1 class="fw-bold mb-3">Gmail Dot Trick Generator</h1>
+      <p class="text-muted col-lg-7 mx-auto">
+        Generate Gmail dot variations instantly using this modern Gmail dot trick generator.
+        Useful for testing, filtering, and managing Gmail aliases efficiently.</p>
+
+    </div>
+  </section>
+
+  <!-- ADS -->
+  <div class="container my-4">
+    <div class="text-center">
+      <script src="https://hanapha.com/banner/sticky.js"></script>
+    </div>
+  </div>
+
+  <!-- TOOL -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card border shadow-sm">
+          <div class="card-body p-4">
+            <div class="text-center mb-4">
+              <div class="mb-3">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                  style="width:70px;height:70px;">
+                  <i class="fa-brands fa-google fs-2"></i>
+                </div>
+              </div>
+              <h3 class="fw-bold">Generate Gmail Variations</h3>
+              <p class="text-muted mb-0">Enter your Gmail username below to generate all possible dot combinations.</p>
+            </div>
+
+            <!-- INPUT -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Gmail Username</label>
+              <div class="input-group input-group-lg">
+                <span class="input-group-text bg-white">
+                  <i class="fa-solid fa-envelope text-primary"></i></span>
+                <input type="text" id="username" class="form-control" placeholder="Enter Gmail username">
+                <span class="input-group-text bg-white">@gmail.com</span>
+              </div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="d-grid mb-4">
+              <button class="btn btn-primary btn-lg" id="generateBtn">
+                <i class="fa-solid fa-wand-magic-sparkles me-2"></i>
+                Generate Emails
+              </button>
+            </div>
+
+            <!-- COUNTER -->
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <label class="fw-semibold mb-0">
+                Generated Emails
+              </label>
+
+              <span class="badge bg-success" id="counter">0 Generated</span>
+            </div>
+
+            <!-- TEXTAREA -->
+            <div class="mb-4">
+              <textarea class="form-control" id="emails" rows="15"
+                placeholder="Generated Gmail variations will appear here..."></textarea>
+            </div>
+
+            <!-- ACTION BUTTONS -->
+            <div class="d-flex flex-wrap gap-2 justify-content-end">
+              <button class="btn btn-outline-secondary" id="copyBtn">
+                <i class="fa-regular fa-copy me-1"></i>Copy</button>
+              <button class="btn btn-success" id="downloadBtn">
+                <i class="fa-solid fa-download me-1"></i>Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADS -->
+  <div class="container mb-5">
+    <div class="text-center">
+      <script src="https://hanapha.com/banner/nativ.js"></script>
+    </div>
+  </div>
+
+  <!-- DESCRIPTION -->
+  <div class="container mb-5">
+    <div class="bg-white border rounded p-4">
+      <h4 class="fw-bold mb-3">About Gmail Dot Trick</h4>
+      <p class="text-muted mb-0">
+        Gmail ignores dots inside usernames. This means emails like johndoe@gmail.com and john.doe@gmail.com point to
+        the same inbox. This tool helps generate multiple Gmail dot variations automatically using a clean and modern
+        interface.
+      </p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-top py-4">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a href="#" class="text-decoration-none text-muted me-3">Home</a>
+        <a href="#" class="text-decoration-none text-muted me-3">Privacy</a>
+        <a href="#" class="text-decoration-none text-muted">Contact</a>
+      </div>
+
+      <small class="text-muted">
+        © <script type='text/javascript'>
+          var creditsyear = new Date();
+          document.write(creditsyear.getFullYear());
+        </script> Gmail Dot Trick Generator.
+      </small>
+
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script -->
+  <script src="https://hanapha.com/assets/js/script.js"></script>
+  <script src="https://hanapha.com/banner/popunder.js"></script>
+</body>
+
+</html>
