@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+
+    <title>Hanapha Gmail Tools</title>
+    <link>https://tools.hanapha.com/gmail</link>
+
+    <description>
+      Gmail-related online tools and utilities from Hanapha Tools.
+    </description>
+
+    <language>en-us</language>
+
+    <item>
+      <title>Gmail Tools</title>
+      <link>https://tools.hanapha.com/gmail</link>
+      <description>
+        Access Gmail utilities and productivity tools online.
+      </description>
+    </item>
+
+  </channel>
+
+</rss>
